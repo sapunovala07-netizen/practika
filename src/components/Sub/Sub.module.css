@@ -1,0 +1,55 @@
+.sub {
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub_text {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 24px;
+    width: 600px;
+}
+
+.sub_text img {
+    height: 36px;
+}
+
+.sub_text h2{
+    font-size: 48px;
+    color: #3B2A20;
+}
+
+.sub_text p {
+    color: #6B5A4B;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+form {
+    padding: 30px;
+    background-color: #F5EFE4;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 550px;
+}
+
+form input {
+    padding: 15px 20px;
+    border: 1px solid #C9B9A5;
+}
+
+form input[type="submit"]{
+    background-color: #3B2A20;
+    border: 1px solid #3B2A20;
+    color: #F5EFE4;
+    cursor: pointer;
+}
+
+form p {
+    color: #6B5A4B;
+    font-size: 12px;
+}
